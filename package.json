@@ -1,0 +1,17 @@
+{
+  "name": "742cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A lightweight CLI for experimenting with AI-assisted developer workflows.",
+  "scripts": {
+    "start": "bun run src/cli.ts",
+    "demo": "bun run src/cli.ts demo",
+    "test": "bun test",
+    "typecheck": "bunx tsc --noEmit"
+  },
+  "devDependencies": {
+    "bun-types": "^1.3.6",
+    "typescript": "^5.9.2"
+  }
+}
