@@ -62,6 +62,10 @@ tests/
   workflows.test.ts
 docs/
   DEVELOPMENT.md
+  SANDBOX.md
+SECURITY.md
+ROADMAP.md
+CHANGELOG.md
 ```
 
 ## Development approach
@@ -81,11 +85,16 @@ See `docs/DEVELOPMENT.md` for the local workflow, extension points, and next-ste
 - Dependencies are locked with `bun.lock` and verified in CI with `--frozen-lockfile`.
 - The project is released under the MIT License (`LICENSE`).
 
+## Security and governance docs
+
+- Security policy: `SECURITY.md`
+- Community sandbox plan: `docs/SANDBOX.md`
+- Six-month delivery plan: `ROADMAP.md`
+- Public change history: `CHANGELOG.md`
+
 ## Roadmap
 
-- add richer workflow templates for issue triage and planning
-- capture reusable prompt and session artifacts beyond markdown examples
-- introduce provider-backed execution once the deterministic local workflow is stable
+See `ROADMAP.md` for the month-by-month plan through the next six months.
 
 ## Status
 

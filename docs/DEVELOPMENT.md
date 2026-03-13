@@ -56,6 +56,13 @@ Before opening a PR or sharing the repository:
 
 The same baseline checks are enforced in GitHub Actions via `.github/workflows/ci.yml`.
 
+## Project documentation map
+
+- security and disclosure process: `SECURITY.md`
+- community demo sandbox plan: `docs/SANDBOX.md`
+- six-month milestones: `ROADMAP.md`
+- release and milestone history: `CHANGELOG.md`
+
 ## Near-term roadmap
 
 - expand workflow coverage for issue triage and release preparation
