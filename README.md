@@ -1,5 +1,8 @@
 # 742cli
 
+[![CI](https://github.com/Fio-X/742cli/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Fio-X/742cli/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+
 742cli is a lightweight research CLI for designing, testing, and documenting AI-assisted developer workflows.
 
 The current milestone focuses on a simple but important goal: turn vague AI-tooling experiments into repository-native artifacts that reviewers and collaborators can inspect quickly. Instead of keeping ideas in chat logs, 742cli pushes them into runnable commands, example workflows, and development notes.
@@ -71,6 +74,12 @@ docs/
 - repeatable verification lives in `tests/`
 
 See `docs/DEVELOPMENT.md` for the local workflow, extension points, and next-step development notes.
+
+## Quality signals
+
+- Automated CI runs tests, type checks, and CLI smoke checks on pushes and pull requests.
+- Dependencies are locked with `bun.lock` and verified in CI with `--frozen-lockfile`.
+- The project is released under the MIT License (`LICENSE`).
 
 ## Roadmap
 

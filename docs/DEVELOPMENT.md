@@ -54,6 +54,8 @@ Before opening a PR or sharing the repository:
 3. Run `bun run src/cli.ts workflow repo-audit`.
 4. Run `bun run typecheck`.
 
+The same baseline checks are enforced in GitHub Actions via `.github/workflows/ci.yml`.
+
 ## Near-term roadmap
 
 - expand workflow coverage for issue triage and release preparation
